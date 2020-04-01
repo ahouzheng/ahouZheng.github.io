@@ -49,8 +49,8 @@ include: [_pages] # Includes files inside _pages directory [Do not remove this]
 
 author:
   name: ahou
-  image: ashwat.jpg # The author image will be shown on the header. Place this image in /images/ folder.
-  about:    
+  image: head.png # The author image will be shown on the header. Place this image in /images/ folder.
+  about: 
   twitter: ahou  # https://twitter.com/ is automatically added
   facebook: no # https://facebook.com/ is automatically added
   email:  # mailto: is automatically added
