@@ -32,3 +32,16 @@ Module xxx is imported from Maven.Any changes made in its ......
         </plugins>
 </build>
 ```
+
+IDEA 控制台、Tomcat Log乱码  
+[article](https://blog.csdn.net/qq_31588719/article/details/102516823)  
+修改本地的Tomcat 的 conf 目录里面的 logging.properties  文件，将那几个默认UTF-8的编码全部改为GBK  
+
+
+dubbo注册服务失败  
+[article](https://blog.csdn.net/ko0491/article/details/85166003)  
+版本问题 将curator版本改为2.12.0   
+
+curator连接超时  
+关闭防火墙  
+systemctl stop firewalld.service  
